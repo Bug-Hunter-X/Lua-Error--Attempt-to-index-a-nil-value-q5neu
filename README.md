@@ -1,0 +1,3 @@
+This repository demonstrates a common Lua error: "Attempt to index a nil value."  The `bug.lua` file contains code that causes this error, while `bugSolution.lua` provides a corrected version.
+
+The error arises when the function `foo` attempts to access `a.x` without first checking if `a` is nil or if the field `x` exists within `a`. The solution adds a check for nil and an optional check for the existence of the field 'x'.
